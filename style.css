@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+}
+
+.hero-text h1 {
+  font-size: 40px;
+}
+
+.hero-text p {
+  color: #94a3b8;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #38bdf8;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.hero-img img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+/* ABOUT */
+.about {
+  text-align: center;
+  padding: 50px;
+}
+
+/* PROJECTS */
+.projects {
+  padding: 50px;
+}
+
+.project-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* CONTACT */
+.contact {
+  text-align: center;
+  padding: 40px;
+}
